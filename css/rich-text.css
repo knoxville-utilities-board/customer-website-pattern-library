@@ -1,0 +1,62 @@
+/*
+This file contains a limited set of styles used by the rich-text editor to preview
+the styling of the content inside a rich-text field.
+*/
+.right {
+  float: right;
+  margin-left: 1em; }
+
+.left {
+  float: left;
+  margin-right: 1em; }
+
+.wysiwyg table, .cke_editable table {
+  border-bottom: 1px solid rgba(0, 47, 105, 0.3);
+  width: auto !important; }
+
+.wysiwyg thead, .cke_editable thead {
+  border: 1px solid #002f69; }
+
+.wysiwyg th, .cke_editable th {
+  border-right: 1px solid white;
+  background-color: #002f69; }
+.wysiwyg th:last-child, .cke_editable th:last-child {
+  border-right: none; }
+
+.wysiwyg tbody, .cke_editable tbody {
+  font-size: 14px;
+  font-size: 0.9rem; }
+
+.wysiwyg tr:nth-child(odd), .cke_editable tr:nth-child(odd) {
+  background-color: #eaf1f7; }
+
+.wysiwyg td, .cke_editable td {
+  border-left: 1px solid rgba(0, 47, 105, 0.3);
+  border-right: 1px solid rgba(0, 47, 105, 0.3); }
+
+.wysiwyg img, .cke_editable img {
+  max-width: 400px; }
+
+.action-link [class^=icon] {
+  display: inline-block;
+  padding-left: 8px;
+  padding-left: .5rem; }
+
+.action-link.icon-text-arrow-right {
+  padding-right: 24px;
+  padding-right: 1.5rem;
+  background-position: 100% 40%; }
+
+.videodetector__wrapper {
+  max-width: 560px; }
+
+.videodetector {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0; }
+.videodetector iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }

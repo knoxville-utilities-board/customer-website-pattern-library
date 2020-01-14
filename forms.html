@@ -1,0 +1,2216 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KUB</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/fabricator.css">
+
+  <!--[if (lt IE 9) & (!IEMobile)]>
+  <link rel="stylesheet" href="/css/nomq.css"/>
+  <![endif]-->
+
+  <!--[if (gte IE 9) | (IEMobile)]><!-->
+  <link rel="stylesheet" href="/css/base.css"/>
+  <!--<![endif]-->
+  
+  <script src="/js/modernizr.js"></script>
+
+  <!-- grunticon/gulpicon -->
+  <script>
+    /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+    !function(){function e(e,n,t,o){"use strict";var r=window.document.createElement("link"),a=n||window.document.getElementsByTagName("script")[0],i=window.document.styleSheets;return r.rel="stylesheet",r.href=e,r.media="only x",o&&(r.onload=o),a.parentNode.insertBefore(r,a),r.onloadcssdefined=function(n){for(var t,o=0;o<i.length;o++)i[o].href&&i[o].href.indexOf(e)>-1&&(t=!0);t?n():setTimeout(function(){r.onloadcssdefined(n)})},r.onloadcssdefined(function(){r.media=t||"all"}),r}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,d=t.Image,s=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===i.userAgent.indexOf("Chrome")||-1!==i.userAgent.indexOf("Series40")),l=new d;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&s?0:t?1:2];t&&s?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},a=function(e){return n.document.querySelector('link[href$="'+e+'"]')},i=function(e){var n,t,r,a,i,c,d={};if(n=e.sheet,!n)return d;t=n.cssRules?n.cssRules:n.rules;for(var s=0;s<t.length;s++)r=t[s].cssText,a=o+t[s].selectorText,i=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),i&&i[1]&&(c=decodeURIComponent(i[1]),d[a]=c);return d},c=function(e){var n,r,a,i;a="data-grunticon-embed";for(var c in e){i=c.slice(o.length);try{n=t.querySelectorAll(i)}catch(d){continue}r=[];for(var s=0;s<n.length;s++)null!==n[s].getAttribute(a)&&r.push(n[s]);if(r.length)for(s=0;s<r.length;s++)r[s].innerHTML=e[c],r[s].style.backgroundImage="none",r[s].removeAttribute(a)}return r},d=function(n){"svg"===e.method&&r(function(){c(i(a(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
+    grunticon(["/icons/icons.data.svg.css", "/icons/icons.data.png.css", "/icons/icons.fallback.css"], grunticon.svgLoadedCallback);
+  </script>
+  <noscript><link href="/icons/icons.fallback.css" rel="stylesheet"></noscript>
+</head>
+  <body>
+
+    <!-- fabricator icons -->
+    <svg style="display: none;">
+    	<symbol id="f-icon-code" viewBox="0 0 512 512">
+    		<path d="M377.3 121.3l-40.5 40.4 94.4 94.3-94.4 94.3 40.5 40.4L512 256zM134.7 121.3L0 256l134.7 134.7 40.5-40.4L80.8 256l94.4-94.3zM281.8 103.8zM230.183 408.16l-29.233-7.97 80.85-296.484 29.234 7.972z"/>
+    	</symbol>
+    	<symbol id="f-icon-notes" viewBox="0 0 512 512">
+    		<path d="M443.8 0H68.2C30.6 0 0 30.5 0 68v264.2c0 16.6 8.9 29.5 25.9 37.5 15.3 7.2 33.1 8.4 40.1 8.5V512l201.6-134h176.1c37.6 0 68.2-30.3 68.2-67.8V68c.1-37.5-30.5-68-68.1-68zM114 438V330H68.2c-11.1 0-19.2-8.8-19.2-19.8V68c0-11 8.2-20 19.2-20h375.5c11.1 0 19.2 9 19.2 20v242.2c0 11-8.2 19.8-19.2 19.8H244.2L114 438z"/>
+    	</symbol>
+    	<symbol id="f-icon-labels" viewBox="0 0 512 512">
+    		<path d="M304 280c0 13.2-10.8 24-24 24h-48c-13.2 0-24-10.8-24-24v-48c0-13.2 10.8-24 24-24h48c13.2 0 24 10.8 24 24v48zM464 280c0 13.2-10.8 24-24 24h-48c-13.2 0-24-10.8-24-24v-48c0-13.2 10.8-24 24-24h48c13.2 0 24 10.8 24 24v48zM144 280c0 13.2-10.8 24-24 24H72c-13.2 0-24-10.8-24-24v-48c0-13.2 10.8-24 24-24h48c13.2 0 24 10.8 24 24v48z"/>
+    	</symbol>
+    	<symbol id="f-icon-menu" viewBox="0 0 512 512">
+    		<path d="M512 100c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h488c6.6 0 12 5.4 12 12v24zM512 212c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h488c6.6 0 12 5.4 12 12v24zM512 324c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h488c6.6 0 12 5.4 12 12v24zM512 436c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h488c6.6 0 12 5.4 12 12v24z"/>
+    	</symbol>
+    	<symbol id="f-icon-settings" viewBox="0 0 512 512">
+    		<path d="M256 377.3c-67.5 0-121.6-53.9-121.6-121.3s54-121.3 121.6-121.3S377.6 188.6 377.6 256 323.5 377.3 256 377.3zm0-215.6c-52.7 0-94.6 41.8-94.6 94.3s41.9 94.3 94.6 94.3 94.6-41.8 94.6-94.3-41.9-94.3-94.6-94.3zM293.2 512h-72.9L200 450c-13.5-4-27-9.4-39.2-16.2l-59.4 29.6L50 412.3 79.7 353c-6.8-12.1-12.2-25.6-16.2-39.1L0 292.4v-72.8l62.1-20.2c4.1-13.5 9.5-26.9 16.2-39.1L48.6 101 100 49.9l59.4 29.6c12.2-6.7 25.7-12.1 39.2-16.2L220.2 0h72.9l20.3 62c13.5 4 27 9.4 39.2 16.2L412 48.5l51.3 51.2-29.7 59.3c6.8 12.1 12.2 25.6 16.2 39.1l62.1 20.2V291l-62.1 20.2c-4.1 13.5-9.5 26.9-16.2 39.1l29.7 59.3-51.3 51.2-59.4-29.6c-12.2 6.7-25.7 12.1-39.2 16.2L293.2 512zm-54.1-26.9h35.1l18.9-57.9 6.8-1.3c16.2-4 31.1-10.8 45.9-18.9l6.8-4 54 26.9 24.3-24.3-27-53.9 4.1-6.7c8.1-13.5 14.9-29.6 18.9-45.8l1.4-6.7 58.1-18.9v-35l-58.1-18.9-1.4-6.7c-4.1-16.2-10.8-31-18.9-45.8l-4.1-6.7 27-53.9-24.3-24.3-54 26.9-6.8-4c-14.8-8.2-29.7-14.9-45.9-19l-6.8-1.3L274.2 27h-35.1l-18.9 57.9-6.8 1.3c-16.2 4-31.1 10.8-45.9 18.9l-6.8 4-54-26.9-24.3 24.3 27 53.9-4.1 6.7c-8.1 13.5-14.9 29.6-18.9 45.8l-1.4 6.7-58 18.9v35l58.1 18.9 1.4 6.7c4.1 16.2 10.8 31 18.9 45.8l4.1 6.7-27 53.9 24.3 24.3 54-26.9 6.8 4c14.9 8.1 29.7 14.8 45.9 18.9l6.8 1.3 18.8 58z"/>
+    	</symbol>
+    </svg>
+    <!-- /fabricator icons -->
+    <!-- fabricator menu -->
+    <div class="f-menu">
+    
+      <div class="f-controls">
+      	<div class="f-control f-global-control" data-f-toggle-control="labels" title="Toggle Labels">
+      		<svg>
+      			<use xlink:href="#f-icon-labels" />
+      		</svg>
+      	</div>
+      	<div class="f-control f-global-control" data-f-toggle-control="notes" title="Toggle Notes">
+      		<svg>
+      			<use xlink:href="#f-icon-notes" />
+      		</svg>
+      	</div>
+      	<div class="f-control f-global-control" data-f-toggle-control="code" title="Toggle Code">
+      		<svg>
+      			<use xlink:href="#f-icon-code" />
+      		</svg>
+      	</div>
+      </div>
+    
+      <ul>
+    
+        <li>
+          <a href="index.html" class="f-menu__heading">Overview</a>
+        </li>
+    
+        <li>
+          <a href="atoms.html" class="f-menu__heading">Atoms</a>
+          <ul>
+            <li>
+              <a href="atoms.html#01-colors">Colors</a>
+            </li>
+            <li>
+              <a href="atoms.html#02-font-families">Font Families</a>
+            </li>
+            <li>
+              <a href="atoms.html#03-font-sizes">Font Sizes</a>
+            </li>
+            <li>
+              <a href="atoms.html#08-bright-important">Bright Important</a>
+            </li>
+            <li>
+              <a href="atoms.html#08-super-important">Super Important</a>
+            </li>
+            <li>
+              <a href="atoms.html#action-button">Action Button</a>
+            </li>
+            <li>
+              <a href="atoms.html#action-link">Action Link</a>
+            </li>
+            <li>
+              <a href="atoms.html#action-link-embedded">Action Link Embedded</a>
+            </li>
+            <li>
+              <a href="atoms.html#content-headings">Content Headings</a>
+            </li>
+            <li>
+              <a href="atoms.html#headings">Headings</a>
+            </li>
+            <li>
+              <a href="atoms.html#label-heading">Label Heading</a>
+            </li>
+            <li>
+              <a href="atoms.html#legalese">Legalese</a>
+            </li>
+            <li>
+              <a href="atoms.html#loading-indicator">Loading Indicator</a>
+            </li>
+            <li>
+              <a href="atoms.html#logo">Logo</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="buttons.html" class="f-menu__heading">Buttons</a>
+          <ul>
+            <li>
+              <a href="buttons.html#button">Button</a>
+            </li>
+            <li>
+              <a href="buttons.html#button-input">Button Input</a>
+            </li>
+            <li>
+              <a href="buttons.html#button-link">Button Link</a>
+            </li>
+            <li>
+              <a href="buttons.html#variants">Variants</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="forms.html" class="f-menu__heading">Forms</a>
+          <ul>
+            <li>
+              <a href="forms.html#01-basic-form">Basic Form</a>
+            </li>
+            <li>
+              <a href="forms.html#02-label">Label</a>
+            </li>
+            <li>
+              <a href="forms.html#03-input">Input</a>
+            </li>
+            <li>
+              <a href="forms.html#03.1-static-input">Static Input</a>
+            </li>
+            <li>
+              <a href="forms.html#03.2-wrapping-static-input">Wrapping Static Input</a>
+            </li>
+            <li>
+              <a href="forms.html#03.3-input-with-icon">Input With Icon</a>
+            </li>
+            <li>
+              <a href="forms.html#04-input-variants">Input Variants</a>
+            </li>
+            <li>
+              <a href="forms.html#05-textarea">Textarea</a>
+            </li>
+            <li>
+              <a href="forms.html#06-select">Select</a>
+            </li>
+            <li>
+              <a href="forms.html#07-checkbox">Checkbox</a>
+            </li>
+            <li>
+              <a href="forms.html#08-checkboxes">Checkboxes</a>
+            </li>
+            <li>
+              <a href="forms.html#09-radio">Radio</a>
+            </li>
+            <li>
+              <a href="forms.html#10-radios">Radios</a>
+            </li>
+            <li>
+              <a href="forms.html#10.1-date">Date</a>
+            </li>
+            <li>
+              <a href="forms.html#11-field">Field</a>
+            </li>
+            <li>
+              <a href="forms.html#11-smaller-input">Smaller Input</a>
+            </li>
+            <li>
+              <a href="forms.html#12-field-required">Field Required</a>
+            </li>
+            <li>
+              <a href="forms.html#13-field-help">Field Help</a>
+            </li>
+            <li>
+              <a href="forms.html#14-field-error">Field Error</a>
+            </li>
+            <li>
+              <a href="forms.html#15-field-group">Field Group</a>
+            </li>
+            <li>
+              <a href="forms.html#16-field-footer">Field Footer</a>
+            </li>
+            <li>
+              <a href="forms.html#17-add-field">Add Field</a>
+            </li>
+            <li>
+              <a href="forms.html#17-edit-field">Edit Field</a>
+            </li>
+            <li>
+              <a href="forms.html#18-edit-password-field">Edit Password Field</a>
+            </li>
+            <li>
+              <a href="forms.html#18-slide-toggle">Slide Toggle</a>
+            </li>
+            <li>
+              <a href="forms.html#18-slide-toggle-question">Slide Toggle Question</a>
+            </li>
+            <li>
+              <a href="forms.html#19-upload">Upload</a>
+            </li>
+            <li>
+              <a href="forms.html#30-form-validation">Form Validation</a>
+            </li>
+            <li>
+              <a href="forms.html#31-form-conditionals">Form Conditionals</a>
+            </li>
+            <li>
+              <a href="forms.html#32-ajax-submissions">Ajax Submissions</a>
+            </li>
+            <li>
+              <a href="forms.html#slide-toggle-loading">Slide Toggle Loading</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="layouts.html" class="f-menu__heading">Layouts</a>
+          <ul>
+            <li>
+              <a href="layouts.html#01-single-column">Single Column</a>
+            </li>
+            <li>
+              <a href="layouts.html#02-with-aside">With Aside</a>
+            </li>
+            <li>
+              <a href="layouts.html#03-with-nav">With Nav</a>
+            </li>
+            <li>
+              <a href="layouts.html#04-with-nav-and-aside">With Nav And Aside</a>
+            </li>
+            <li>
+              <a href="layouts.html#05-form-page">Form Page</a>
+            </li>
+            <li>
+              <a href="layouts.html#06-split">Split</a>
+            </li>
+            <li>
+              <a href="layouts.html#07-card-grid">Card Grid</a>
+            </li>
+            <li>
+              <a href="layouts.html#07-card-grid--3up">Card Grid  3up</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="maps.html" class="f-menu__heading">Maps</a>
+          <ul>
+            <li>
+              <a href="maps.html#balloon">Balloon</a>
+            </li>
+            <li>
+              <a href="maps.html#balloon-loading">Balloon Loading</a>
+            </li>
+            <li>
+              <a href="maps.html#legend">Legend</a>
+            </li>
+            <li>
+              <a href="maps.html#legend-header">Legend Header</a>
+            </li>
+            <li>
+              <a href="maps.html#outage-meter">Outage Meter</a>
+            </li>
+            <li>
+              <a href="maps.html#refresh-timer">Refresh Timer</a>
+            </li>
+            <li>
+              <a href="maps.html#zoom-control">Zoom Control</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="molecules.html" class="f-menu__heading">Molecules</a>
+          <ul>
+            <li>
+              <a href="molecules.html#account-dropdown">Account Dropdown</a>
+            </li>
+            <li>
+              <a href="molecules.html#account-table">Account Table</a>
+            </li>
+            <li>
+              <a href="molecules.html#activity-table">Activity Table</a>
+            </li>
+            <li>
+              <a href="molecules.html#alerts">Alerts</a>
+            </li>
+            <li>
+              <a href="molecules.html#aside-messages">Aside Messages</a>
+            </li>
+            <li>
+              <a href="molecules.html#bar-graph">Bar Graph</a>
+            </li>
+            <li>
+              <a href="molecules.html#bill-nav">Bill Nav</a>
+            </li>
+            <li>
+              <a href="molecules.html#callout">Callout</a>
+            </li>
+            <li>
+              <a href="molecules.html#card">Card</a>
+            </li>
+            <li>
+              <a href="molecules.html#content-overview">Content Overview</a>
+            </li>
+            <li>
+              <a href="molecules.html#dropdown">Dropdown</a>
+            </li>
+            <li>
+              <a href="molecules.html#global-alerts">Global Alerts</a>
+            </li>
+            <li>
+              <a href="molecules.html#hero-map">Hero Map</a>
+            </li>
+            <li>
+              <a href="molecules.html#hero-message">Hero Message</a>
+            </li>
+            <li>
+              <a href="molecules.html#hint">Hint</a>
+            </li>
+            <li>
+              <a href="molecules.html#modal">Modal</a>
+            </li>
+            <li>
+              <a href="molecules.html#outage-preview">Outage Preview</a>
+            </li>
+            <li>
+              <a href="molecules.html#pagination">Pagination</a>
+            </li>
+            <li>
+              <a href="molecules.html#promo-panel">Promo Panel</a>
+            </li>
+            <li>
+              <a href="molecules.html#severance">Severance</a>
+            </li>
+            <li>
+              <a href="molecules.html#sidebar-articles">Sidebar Articles</a>
+            </li>
+            <li>
+              <a href="molecules.html#start-stop">Start Stop</a>
+            </li>
+            <li>
+              <a href="molecules.html#task">Task</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="organisms.html" class="f-menu__heading">Organisms</a>
+          <ul>
+            <li>
+              <a href="organisms.html#account-header">Account Header</a>
+            </li>
+            <li>
+              <a href="organisms.html#account-login">Account Login</a>
+            </li>
+            <li>
+              <a href="organisms.html#ad-list">Ad List</a>
+            </li>
+            <li>
+              <a href="organisms.html#downloads-list">Downloads List</a>
+            </li>
+            <li>
+              <a href="organisms.html#footer">Footer</a>
+            </li>
+            <li>
+              <a href="organisms.html#form--contact-info">Form  Contact Info</a>
+            </li>
+            <li>
+              <a href="organisms.html#form--profile">Form  Profile</a>
+            </li>
+            <li>
+              <a href="organisms.html#form--update-address">Form  Update Address</a>
+            </li>
+            <li>
+              <a href="organisms.html#global-alerts">Global Alerts</a>
+            </li>
+            <li>
+              <a href="organisms.html#header">Header</a>
+            </li>
+            <li>
+              <a href="organisms.html#hero">Hero</a>
+            </li>
+            <li>
+              <a href="organisms.html#login">Login</a>
+            </li>
+            <li>
+              <a href="organisms.html#multi-select">Multi Select</a>
+            </li>
+            <li>
+              <a href="organisms.html#nav">Nav</a>
+            </li>
+            <li>
+              <a href="organisms.html#nav-dropdown">Nav Dropdown</a>
+            </li>
+            <li>
+              <a href="organisms.html#page-header">Page Header</a>
+            </li>
+            <li>
+              <a href="organisms.html#promo-container">Promo Container</a>
+            </li>
+            <li>
+              <a href="organisms.html#search">Search</a>
+            </li>
+            <li>
+              <a href="organisms.html#search-properties">Search Properties</a>
+            </li>
+            <li>
+              <a href="organisms.html#section-listing">Section Listing</a>
+            </li>
+            <li>
+              <a href="organisms.html#section-navigation">Section Navigation</a>
+            </li>
+            <li>
+              <a href="organisms.html#service-address">Service Address</a>
+            </li>
+            <li>
+              <a href="organisms.html#service-address-one-action">Service Address One Action</a>
+            </li>
+            <li>
+              <a href="organisms.html#social-feeds">Social Feeds</a>
+            </li>
+            <li>
+              <a href="organisms.html#styled-list">Styled List</a>
+            </li>
+            <li>
+              <a href="organisms.html#task-slider">Task Slider</a>
+            </li>
+            <li>
+              <a href="organisms.html#wysiwyg">Wysiwyg</a>
+            </li>
+          </ul>
+        </li>
+    
+        <li>
+          <a href="pages.html" class="f-menu__heading">Pages</a>
+          <ul>
+            <li>
+              <a href="pages/account-activity.html" target="_blank">Account Activity</a>
+            </li>
+            <li>
+              <a href="pages/account-history.html" target="_blank">Account History</a>
+            </li>
+            <li>
+              <a href="pages/account-list.html" target="_blank">Account List</a>
+            </li>
+            <li>
+              <a href="pages/account-profile.html" target="_blank">Account Profile</a>
+            </li>
+            <li>
+              <a href="pages/account-properties.html" target="_blank">Account Properties</a>
+            </li>
+            <li>
+              <a href="pages/bank-draft-edit.html" target="_blank">Bank Draft Edit</a>
+            </li>
+            <li>
+              <a href="pages/bank-draft.html" target="_blank">Bank Draft</a>
+            </li>
+            <li>
+              <a href="pages/billing-options.html" target="_blank">Billing Options</a>
+            </li>
+            <li>
+              <a href="pages/billing-payment-options.html" target="_blank">Billing Payment Options</a>
+            </li>
+            <li>
+              <a href="pages/detail.html" target="_blank">Detail</a>
+            </li>
+            <li>
+              <a href="pages/forms.html" target="_blank">Forms</a>
+            </li>
+            <li>
+              <a href="pages/home--logged-in.html" target="_blank">Home  Logged In</a>
+            </li>
+            <li>
+              <a href="pages/home-storm.html" target="_blank">Home Storm</a>
+            </li>
+            <li>
+              <a href="pages/home.html" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="pages/login-confirm.html" target="_blank">Login Confirm</a>
+            </li>
+            <li>
+              <a href="pages/new-outage-map.html" target="_blank">New Outage Map</a>
+            </li>
+            <li>
+              <a href="pages/outage-map.html" target="_blank">Outage Map</a>
+            </li>
+            <li>
+              <a href="pages/outage-status.html" target="_blank">Outage Status</a>
+            </li>
+            <li>
+              <a href="pages/section-page.html" target="_blank">Section Page</a>
+            </li>
+            <li>
+              <a href="pages/three-col-example.html" target="_blank">Three Col Example</a>
+            </li>
+          </ul>
+        </li>
+    
+        <li>
+          <a href="docs.html" class="f-menu__heading">Docs</a>
+          <ul>
+            <li>
+              <a href="docs.html#branding">Branding</a>
+            </li>
+            <li>
+              <a href="docs.html#email-templates">Email Templates</a>
+            </li>
+            <li>
+              <a href="docs.html#javascript">Javascript</a>
+            </li>
+            <li>
+              <a href="docs.html#styles">Styles</a>
+            </li>
+          </ul>
+        </li>
+    
+      </ul>
+    
+    
+    </div>
+    <!-- /fabricator menu -->
+    <div class="f-container">
+    <div class="f-control-bar">
+    	<div class="f-control f-menu-toggle">
+    		<svg>
+    			<use xlink:href="#f-icon-menu" />
+    		</svg>
+    	</div>
+    </div>
+
+
+    
+<h1 data-f-toggle="labels">Forms</h1>
+
+<p>This guide is for building standard forms. All form elements must be wrapped in a <code>.form</code> class<br>
+to be styled correctly. This can be in a <code>&lt;form&gt;</code> element, but that is not required.</p>
+
+<div class="form">
+
+  <div class="f-item-group" id="01-basic-form">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Basic Form</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/01-basic-form.html">alone</a>
+  	</div><div class="f-item-preview">
+    <form action="#" class="form">
+  	<div class="field">
+  		<label for="unique-id">
+  			Full Name
+  		</label>
+  		<p class="form__static " placeholder="">Stephanie Smith</p>
+  	</div>
+  	<div class="field-group">
+  		<div class="field">
+  			<label for="first-name">
+  				First Name
+  				<span class="required">*</span>
+  			</label> <input id="first-name" type="text" required> </div>
+  		<div class="field">
+  			<label for="last-name">
+  				Last Name
+  				<span class="required">*</span>
+  			</label> <input id="last-name" type="text" required> </div>
+  		<div class="field">
+  			<label for="ssn">
+  				Social Security
+  				<span class="required">*</span>
+  			</label> <input id="ssn" type="text" required>
+  			<p class="field__help">This information is required</p>
+  		</div>
+  		<div class="field">
+  			<label for="birth-place">
+  				Place of Birth
+  			</label> <select id="birth-place">
+  			</select></div>
+  	</div>
+  	<div class="field">
+  		<label for="secret-question">
+  			Secret Question
+  		</label> <input id="secret-question" type="text"> </div>
+  	<div class="field">
+  		<label for="secret-answer">
+  			Secret Answer
+  		</label> <textarea id="secret-answer" rows="8">
+  
+        </textarea></div>
+  	<footer class="form__footer">
+  		<button class="button button--blue">
+  			Submit
+  		</button> <button class="button button--gray">
+  			Cancel
+  		</button> <span class="form-links"><a href="#">Action link</a></span>
+  	</footer>
+  </form>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;form action&#x3D;&quot;#&quot; class&#x3D;&quot;form&quot;&gt;
+  	&lt;div class&#x3D;&quot;field&quot;&gt;
+  		&lt;label for&#x3D;&quot;unique-id&quot;&gt;
+  			Full Name
+  		&lt;/label&gt;
+  		&lt;p class&#x3D;&quot;form__static &quot; placeholder&#x3D;&quot;&quot;&gt;Stephanie Smith&lt;/p&gt;
+  	&lt;/div&gt;
+  	&lt;div class&#x3D;&quot;field-group&quot;&gt;
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;first-name&quot;&gt;
+  				First Name
+  				&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  			&lt;/label&gt; &lt;input id&#x3D;&quot;first-name&quot; type&#x3D;&quot;text&quot; required&gt; &lt;/div&gt;
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;last-name&quot;&gt;
+  				Last Name
+  				&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  			&lt;/label&gt; &lt;input id&#x3D;&quot;last-name&quot; type&#x3D;&quot;text&quot; required&gt; &lt;/div&gt;
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;ssn&quot;&gt;
+  				Social Security
+  				&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  			&lt;/label&gt; &lt;input id&#x3D;&quot;ssn&quot; type&#x3D;&quot;text&quot; required&gt;
+  			&lt;p class&#x3D;&quot;field__help&quot;&gt;This information is required&lt;/p&gt;
+  		&lt;/div&gt;
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;birth-place&quot;&gt;
+  				Place of Birth
+  			&lt;/label&gt; &lt;select id&#x3D;&quot;birth-place&quot;&gt;
+  			&lt;/select&gt;&lt;/div&gt;
+  	&lt;/div&gt;
+  	&lt;div class&#x3D;&quot;field&quot;&gt;
+  		&lt;label for&#x3D;&quot;secret-question&quot;&gt;
+  			Secret Question
+  		&lt;/label&gt; &lt;input id&#x3D;&quot;secret-question&quot; type&#x3D;&quot;text&quot;&gt; &lt;/div&gt;
+  	&lt;div class&#x3D;&quot;field&quot;&gt;
+  		&lt;label for&#x3D;&quot;secret-answer&quot;&gt;
+  			Secret Answer
+  		&lt;/label&gt; &lt;textarea id&#x3D;&quot;secret-answer&quot; rows&#x3D;&quot;8&quot;&gt;
+  
+        &lt;/textarea&gt;&lt;/div&gt;
+  	&lt;footer class&#x3D;&quot;form__footer&quot;&gt;
+  		&lt;button class&#x3D;&quot;button button--blue&quot;&gt;
+  			Submit
+  		&lt;/button&gt; &lt;button class&#x3D;&quot;button button--gray&quot;&gt;
+  			Cancel
+  		&lt;/button&gt; &lt;span class&#x3D;&quot;form-links&quot;&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Action link&lt;/a&gt;&lt;/span&gt;
+  	&lt;/footer&gt;
+  &lt;/form&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="02-label">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Label</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/02-label.html">alone</a>
+  	</div><div class="f-item-preview">
+    <label for="unique-id">
+  	Field Label
+  </label>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;label for&#x3D;&quot;unique-id&quot;&gt;
+  	Field Label
+  &lt;/label&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="03-input">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Input</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/03-input.html">alone</a>
+  	</div><div class="f-item-preview">
+    <input id="unique-id" type="text">
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;text&quot;&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="03.1-static-input">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Static Input</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/03.1-static-input.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>The static input field is meant to <strong>look</strong> like a form field with the option of making it <strong>act</strong>
+  like a form field by using the <code>contenteditable</code> attribute. Like normal text fields, this
+  element will not wrap, but will instead truncate overflow text with an ellipsis as an indicator.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <p class="form__static " placeholder="">Stephanie Smith</p>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;p class&#x3D;&quot;form__static &quot; placeholder&#x3D;&quot;&quot;&gt;Stephanie Smith&lt;/p&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="03.2-wrapping-static-input">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Wrapping Static Input</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/03.2-wrapping-static-input.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>A variation of the static input component that simply allows content to wrap.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <p class="form__static form__static--wrap " placeholder="">This static input field will wrap to multiple lines if the text excedes the width of it&#x27;s container.</p>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;p class&#x3D;&quot;form__static form__static--wrap &quot; placeholder&#x3D;&quot;&quot;&gt;This static input field will wrap to multiple lines if the text excedes the width of it&amp;#x27;s container.&lt;/p&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="03.3-input-with-icon">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Input With Icon</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/03.3-input-with-icon.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>To prefix a field with an icon, just add the icon class to the input element.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <input id="unique-id" type="text" class="icon-dollar-sign">
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;text&quot; class&#x3D;&quot;icon-dollar-sign&quot;&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="04-input-variants">
+  
+  	<div class="f-item-heading-group">
+  		<h2 class="f-item-heading" data-f-toggle="labels">Input Variants</h2>
+  	</div>
+  		<div class="f-item-group" id="04-input-variants.disabled">
+  			<div class="f-item-heading-group" data-f-toggle="labels">
+  				<h3 class="f-item-heading">Disabled</h3>
+  				<div class="f-item-controls">
+  					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  						<svg>
+  							<use xlink:href="#f-icon-code" />
+  						</svg>
+  					</span>
+  				</div>
+  			</div><div class="f-item-preview">
+    <input id="unique-id" type="text" disabled>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;text&quot; disabled&gt;</code></pre>
+  </div>
+  
+  		</div>
+  		<div class="f-item-group" id="04-input-variants.placeholder">
+  			<div class="f-item-heading-group" data-f-toggle="labels">
+  				<h3 class="f-item-heading">Placeholder</h3>
+  				<div class="f-item-controls">
+  					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  						<svg>
+  							<use xlink:href="#f-icon-code" />
+  						</svg>
+  					</span>
+  				</div>
+  			</div><div class="f-item-preview">
+    <input id="unique-id" type="text" placeholder="First Name Placeholder">
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;First Name Placeholder&quot;&gt;</code></pre>
+  </div>
+  
+  		</div>
+  
+  </div>
+
+
+  <div class="f-item-group" id="05-textarea">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Textarea</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/05-textarea.html">alone</a>
+  	</div><div class="f-item-preview">
+    <textarea id="unique-id" rows="8">
+  
+  </textarea>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;textarea id&#x3D;&quot;unique-id&quot; rows&#x3D;&quot;8&quot;&gt;
+  
+  &lt;/textarea&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="06-select">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Select</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/06-select.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Native <code>&lt;select&gt;</code> controls are modified with the Chosen.js library to present a standardized
+  visual style across browsers. If the options list exceeds 5 items, the element will allow
+  filtering by typing the beginning of a value.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <select id="unique-id">
+  </select>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;select id&#x3D;&quot;unique-id&quot;&gt;
+  &lt;/select&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="07-checkbox">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Checkbox</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/07-checkbox.html">alone</a>
+  	</div><div class="f-item-preview">
+    <label class="form__checkbox">
+  	<input id="unique-id" type="checkbox">
+  	<span class="icon-checkbox form__selector"></span>
+  	Option 1
+  </label>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  	&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  	&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  	Option 1
+  &lt;/label&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="08-checkboxes">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Checkboxes</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/08-checkboxes.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Multiple checkbox options can be grouped in a fieldset, using the fieldset legend as a label
+  for the entire group.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <fieldset>
+  	<legend>These are your options</legend>
+  	<label class="form__checkbox">
+  		<input id="option1" type="checkbox">
+  		<span class="icon-checkbox form__selector"></span>
+  		Option 1
+  	</label> <label class="form__checkbox">
+  		<input id="option2" type="checkbox" checked>
+  		<span class="icon-checkbox form__selector"></span>
+  		Option 2
+  	</label> <label class="form__checkbox">
+  		<input id="option3" type="checkbox">
+  		<span class="icon-checkbox form__selector"></span>
+  		Option 3 what if this has some really long text?
+  	</label> <label class="form__checkbox">
+  		<input id="option4" type="checkbox">
+  		<span class="icon-checkbox form__selector"></span>
+  		Option 4
+  	</label>
+  </fieldset>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;fieldset&gt;
+  	&lt;legend&gt;These are your options&lt;/legend&gt;
+  	&lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  		&lt;input id&#x3D;&quot;option1&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  		&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  		Option 1
+  	&lt;/label&gt; &lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  		&lt;input id&#x3D;&quot;option2&quot; type&#x3D;&quot;checkbox&quot; checked&gt;
+  		&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  		Option 2
+  	&lt;/label&gt; &lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  		&lt;input id&#x3D;&quot;option3&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  		&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  		Option 3 what if this has some really long text?
+  	&lt;/label&gt; &lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  		&lt;input id&#x3D;&quot;option4&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  		&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  		Option 4
+  	&lt;/label&gt;
+  &lt;/fieldset&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="09-radio">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Radio</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/09-radio.html">alone</a>
+  	</div><div class="f-item-preview">
+    <label class="form__radio">
+  	<input id="unique-id" type="radio" name="radio">
+  	<span class="form__selector"></span>
+  	Option 1
+  </label>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  	&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot;&gt;
+  	&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  	Option 1
+  &lt;/label&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="10-radios">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Radios</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/10-radios.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Multiple radio options can be grouped in a fieldset, using the fieldset legend as a label
+  for the entire group.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <fieldset>
+  	<legend>Choose one option</legend>
+  	<label class="form__radio">
+  		<input id="option1" type="radio" name="radio">
+  		<span class="form__selector"></span>
+  		Option 1
+  	</label> <label class="form__radio">
+  		<input id="option2" type="radio" name="radio" checked>
+  		<span class="form__selector"></span>
+  		Option 2
+  	</label> <label class="form__radio">
+  		<input id="option3" type="radio" name="radio">
+  		<span class="form__selector"></span>
+  		Option 3 what if this has some really long text?
+  	</label> <label class="form__radio">
+  		<input id="option4" type="radio" name="radio">
+  		<span class="form__selector"></span>
+  		Option 4
+  	</label>
+  </fieldset>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;fieldset&gt;
+  	&lt;legend&gt;Choose one option&lt;/legend&gt;
+  	&lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  		&lt;input id&#x3D;&quot;option1&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot;&gt;
+  		&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  		Option 1
+  	&lt;/label&gt; &lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  		&lt;input id&#x3D;&quot;option2&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot; checked&gt;
+  		&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  		Option 2
+  	&lt;/label&gt; &lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  		&lt;input id&#x3D;&quot;option3&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot;&gt;
+  		&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  		Option 3 what if this has some really long text?
+  	&lt;/label&gt; &lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  		&lt;input id&#x3D;&quot;option4&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot;&gt;
+  		&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  		Option 4
+  	&lt;/label&gt;
+  &lt;/fieldset&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="10.1-date">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Date</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/10.1-date.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>To implement a calendar picker in your forms, use an input of <code>type=text</code> and add
+  the custom <code>data-picker</code> attribute. To limit the range of dates available, use
+  the additional attributes <code>data-start-date</code> and/or <code>data-end-date</code>. To disable the
+  selection of weekends, use the attribute <code>data-disable-weekends</code> on the input. The values for
+  these dates should be <code>YYYY-MM-DD</code> or an integer representing the relative amount of
+  days offset from today. Adding the <code>icon-calendar</code> class will include a calendar icon
+  on the input.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <input id="date-unique-id" type="text" class="icon-calendar" data-picker data-disable-weekends data-start-date="-5" data-end-date="3">
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;input id&#x3D;&quot;date-unique-id&quot; type&#x3D;&quot;text&quot; class&#x3D;&quot;icon-calendar&quot; data-picker data-disable-weekends data-start-date&#x3D;&quot;-5&quot; data-end-date&#x3D;&quot;3&quot;&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="11-field">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Field</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/11-field.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>In most circumstances all form controls should be wrapped in a <code>.field</code> class which will encapsulate
+  the form control, it's label, optional help text and any error message that is generated.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field">
+  	<input id="unique-id" type="text"> </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field&quot;&gt;
+  	&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;text&quot;&gt; &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="11-smaller-input">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Smaller Input</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/11-smaller-input.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>By default inputs inside field components will have a 100% width. To make an input smaller in some
+  circumstances (ie. fields by themselves, date fields, select fields) apply the <code>.smaller-input</code>
+  class to the <code>&lt;input&gt;</code> or <code>&lt;select&gt;</code> element.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field">
+  	<input type="text" class="smaller-input">
+  </div>
+  
+  <div class="field">
+  	<select class="smaller-input">
+  		<option value="1">One</option>
+  		<option value="2">Two</option>
+  		<option value="3">Three</option>
+  		<option value="4">Four</option>
+  	</select>
+  </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field&quot;&gt;
+  	&lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;smaller-input&quot;&gt;
+  &lt;/div&gt;
+  
+  &lt;div class&#x3D;&quot;field&quot;&gt;
+  	&lt;select class&#x3D;&quot;smaller-input&quot;&gt;
+  		&lt;option value&#x3D;&quot;1&quot;&gt;One&lt;/option&gt;
+  		&lt;option value&#x3D;&quot;2&quot;&gt;Two&lt;/option&gt;
+  		&lt;option value&#x3D;&quot;3&quot;&gt;Three&lt;/option&gt;
+  		&lt;option value&#x3D;&quot;4&quot;&gt;Four&lt;/option&gt;
+  	&lt;/select&gt;
+  &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="12-field-required">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Field Required</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/12-field-required.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Add an astrisk inside a <code>span.required</code> element directly after the label.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field">
+  	<label for="required-field">
+  		Required
+  		<span class="required">*</span>
+  	</label> <input id="required-field" type="text" required> </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field&quot;&gt;
+  	&lt;label for&#x3D;&quot;required-field&quot;&gt;
+  		Required
+  		&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  	&lt;/label&gt; &lt;input id&#x3D;&quot;required-field&quot; type&#x3D;&quot;text&quot; required&gt; &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="13-field-help">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Field Help</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/13-field-help.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>To include a help message for any field add a <code>&lt;p&gt;</code> element with a class of <code>field__help</code> just
+  after the form element.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field">
+  	<label for="help-field">
+  		Field with Help
+  	</label> <input id="help-field" type="text">
+  	<p class="field__help">Here is a help message that runs very long to make sure it wraps will in all circumstances</p>
+  </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field&quot;&gt;
+  	&lt;label for&#x3D;&quot;help-field&quot;&gt;
+  		Field with Help
+  	&lt;/label&gt; &lt;input id&#x3D;&quot;help-field&quot; type&#x3D;&quot;text&quot;&gt;
+  	&lt;p class&#x3D;&quot;field__help&quot;&gt;Here is a help message that runs very long to make sure it wraps will in all circumstances&lt;/p&gt;
+  &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="14-field-error">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Field Error</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/14-field-error.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Indicate errors on a field by including the <code>field--error</code> class to <code>div.field</code> and optionally
+  include an error message inside <code>p.field__error</code> placed just after the input and before any
+  help message.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field field--error">
+  	<label for="help-field">
+  		Field with Help
+  	</label> <input id="help-field" type="text">
+  	<p class="field__error">This is an error message related to this field</p>
+  	<p class="field__help">Here is a help message</p>
+  </div>
+  <div class="field field--error">
+  	<fieldset>
+  		<legend>Choose one option</legend>
+  		<label class="form__radio">
+  			<input id="option1" type="radio" name="radio">
+  			<span class="form__selector"></span>
+  			Option 1
+  		</label> <label class="form__radio">
+  			<input id="option2" type="radio" name="radio" checked>
+  			<span class="form__selector"></span>
+  			Option 2
+  		</label> <label class="form__radio">
+  			<input id="option3" type="radio" name="radio">
+  			<span class="form__selector"></span>
+  			Option 3 what if this has some really long text?
+  		</label> <label class="form__radio">
+  			<input id="option4" type="radio" name="radio">
+  			<span class="form__selector"></span>
+  			Option 4
+  		</label>
+  	</fieldset>
+  	<p class="field__error">You must select an option</p>
+  </div>
+  <div class="field field--error">
+  	<fieldset>
+  		<legend>These are your options</legend>
+  		<label class="form__checkbox">
+  			<input id="option1" type="checkbox">
+  			<span class="icon-checkbox form__selector"></span>
+  			Option 1
+  		</label> <label class="form__checkbox">
+  			<input id="option2" type="checkbox" checked>
+  			<span class="icon-checkbox form__selector"></span>
+  			Option 2
+  		</label> <label class="form__checkbox">
+  			<input id="option3" type="checkbox">
+  			<span class="icon-checkbox form__selector"></span>
+  			Option 3 what if this has some really long text?
+  		</label> <label class="form__checkbox">
+  			<input id="option4" type="checkbox">
+  			<span class="icon-checkbox form__selector"></span>
+  			Option 4
+  		</label>
+  	</fieldset>
+  	<p class="field__error">You must select an option</p>
+  </div>
+  <div class="field field--error">
+  	<label for="select-error">
+  		Select Error
+  	</label> <select id="select-error">
+  	</select>
+  	<p class="field__error">You must select an option</p>
+  </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field field--error&quot;&gt;
+  	&lt;label for&#x3D;&quot;help-field&quot;&gt;
+  		Field with Help
+  	&lt;/label&gt; &lt;input id&#x3D;&quot;help-field&quot; type&#x3D;&quot;text&quot;&gt;
+  	&lt;p class&#x3D;&quot;field__error&quot;&gt;This is an error message related to this field&lt;/p&gt;
+  	&lt;p class&#x3D;&quot;field__help&quot;&gt;Here is a help message&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;field field--error&quot;&gt;
+  	&lt;fieldset&gt;
+  		&lt;legend&gt;Choose one option&lt;/legend&gt;
+  		&lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input id&#x3D;&quot;option1&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot;&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  			Option 1
+  		&lt;/label&gt; &lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input id&#x3D;&quot;option2&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot; checked&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  			Option 2
+  		&lt;/label&gt; &lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input id&#x3D;&quot;option3&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot;&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  			Option 3 what if this has some really long text?
+  		&lt;/label&gt; &lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input id&#x3D;&quot;option4&quot; type&#x3D;&quot;radio&quot; name&#x3D;&quot;radio&quot;&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt;
+  			Option 4
+  		&lt;/label&gt;
+  	&lt;/fieldset&gt;
+  	&lt;p class&#x3D;&quot;field__error&quot;&gt;You must select an option&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;field field--error&quot;&gt;
+  	&lt;fieldset&gt;
+  		&lt;legend&gt;These are your options&lt;/legend&gt;
+  		&lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  			&lt;input id&#x3D;&quot;option1&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  			&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  			Option 1
+  		&lt;/label&gt; &lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  			&lt;input id&#x3D;&quot;option2&quot; type&#x3D;&quot;checkbox&quot; checked&gt;
+  			&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  			Option 2
+  		&lt;/label&gt; &lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  			&lt;input id&#x3D;&quot;option3&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  			&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  			Option 3 what if this has some really long text?
+  		&lt;/label&gt; &lt;label class&#x3D;&quot;form__checkbox&quot;&gt;
+  			&lt;input id&#x3D;&quot;option4&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  			&lt;span class&#x3D;&quot;icon-checkbox form__selector&quot;&gt;&lt;/span&gt;
+  			Option 4
+  		&lt;/label&gt;
+  	&lt;/fieldset&gt;
+  	&lt;p class&#x3D;&quot;field__error&quot;&gt;You must select an option&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;field field--error&quot;&gt;
+  	&lt;label for&#x3D;&quot;select-error&quot;&gt;
+  		Select Error
+  	&lt;/label&gt; &lt;select id&#x3D;&quot;select-error&quot;&gt;
+  	&lt;/select&gt;
+  	&lt;p class&#x3D;&quot;field__error&quot;&gt;You must select an option&lt;/p&gt;
+  &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="15-field-group">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Field Group</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/15-field-group.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Wrap fields inside a <code>.field-group</code> class to use a two-column layout for fields on larger
+  screens.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field-group">
+  	<div class="field">
+  		<label for="first-field">
+  			First Field
+  		</label> <input id="first-field" type="text"> </div>
+  	<div class="field">
+  		<label for="second-field">
+  			Second Field
+  		</label> <input id="second-field" type="text"> </div>
+  	<div class="field">
+  		<label for="third-field">
+  			Third Field
+  		</label> <input id="third-field" type="text"> </div>
+  	<div class="field">
+  		<label for="fourth-field">
+  			Fourth Field
+  		</label> <input id="fourth-field" type="text"> </div>
+  </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field-group&quot;&gt;
+  	&lt;div class&#x3D;&quot;field&quot;&gt;
+  		&lt;label for&#x3D;&quot;first-field&quot;&gt;
+  			First Field
+  		&lt;/label&gt; &lt;input id&#x3D;&quot;first-field&quot; type&#x3D;&quot;text&quot;&gt; &lt;/div&gt;
+  	&lt;div class&#x3D;&quot;field&quot;&gt;
+  		&lt;label for&#x3D;&quot;second-field&quot;&gt;
+  			Second Field
+  		&lt;/label&gt; &lt;input id&#x3D;&quot;second-field&quot; type&#x3D;&quot;text&quot;&gt; &lt;/div&gt;
+  	&lt;div class&#x3D;&quot;field&quot;&gt;
+  		&lt;label for&#x3D;&quot;third-field&quot;&gt;
+  			Third Field
+  		&lt;/label&gt; &lt;input id&#x3D;&quot;third-field&quot; type&#x3D;&quot;text&quot;&gt; &lt;/div&gt;
+  	&lt;div class&#x3D;&quot;field&quot;&gt;
+  		&lt;label for&#x3D;&quot;fourth-field&quot;&gt;
+  			Fourth Field
+  		&lt;/label&gt; &lt;input id&#x3D;&quot;fourth-field&quot; type&#x3D;&quot;text&quot;&gt; &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="16-field-footer">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Field Footer</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/16-field-footer.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Action buttons and links will typically go in the form footer which is wrapped in a
+  <code>form.form__footer</code> element. Usually the footer will just contain buttons, but if links
+  are also required, wrap your links in a <code>span.form-links</code> element delimted with pipes
+  ( | ) and place these links after all buttons.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <form action="#" class="form">
+  	<footer class="form__footer">
+  		<button class="button button--blue">
+  			Login
+  		</button>
+  		<span class="form-links"><a href="#">Forgot Username?</a> | <a href="#">Forgot Password?</a></span>
+  	</footer>
+  </form>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;form action&#x3D;&quot;#&quot; class&#x3D;&quot;form&quot;&gt;
+  	&lt;footer class&#x3D;&quot;form__footer&quot;&gt;
+  		&lt;button class&#x3D;&quot;button button--blue&quot;&gt;
+  			Login
+  		&lt;/button&gt;
+  		&lt;span class&#x3D;&quot;form-links&quot;&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Forgot Username?&lt;/a&gt; | &lt;a href&#x3D;&quot;#&quot;&gt;Forgot Password?&lt;/a&gt;&lt;/span&gt;
+  	&lt;/footer&gt;
+  &lt;/form&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="17-add-field">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Add Field</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/17-add-field.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>The Add Field allows inline editing of new fields.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field-edit field-edit--add add-field">
+  	<p class="form__static field-edit__value form__static--new" placeholder="email or phone">Stephanie Smith</p>
+  	<div class="field-edit__controls">
+  		<a href="#" class="field-edit__control field-edit__control--save js-edit-done">save</a>
+  		<a href="#" class="field-edit__control field-edit__control--cancel js-edit-done">cancel</a>
+  	</div>
+  
+  
+  	<a href="#" class="field-edit__add profile__add js-edit-start">
+  		<span class="field-edit__add-icon profile__add-icon icon-add"></span> Add an alternate contact
+  	</a>
+  </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field-edit field-edit--add add-field&quot;&gt;
+  	&lt;p class&#x3D;&quot;form__static field-edit__value form__static--new&quot; placeholder&#x3D;&quot;email or phone&quot;&gt;Stephanie Smith&lt;/p&gt;
+  	&lt;div class&#x3D;&quot;field-edit__controls&quot;&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--save js-edit-done&quot;&gt;save&lt;/a&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--cancel js-edit-done&quot;&gt;cancel&lt;/a&gt;
+  	&lt;/div&gt;
+  
+  
+  	&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__add profile__add js-edit-start&quot;&gt;
+  		&lt;span class&#x3D;&quot;field-edit__add-icon profile__add-icon icon-add&quot;&gt;&lt;/span&gt; Add an alternate contact
+  	&lt;/a&gt;
+  &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="17-edit-field">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Edit Field</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/17-edit-field.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>The Edit Field allows inline editing of individual fields.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field-edit">
+  	<p class="form__static field-edit__value" placeholder="">Stephanie Smith</p>
+  	<div class="field-edit__controls">
+  		<a href="#" class="field-edit__control field-edit__control--edit js-edit-start">edit</a>
+  		<a href="#" class="field-edit__control field-edit__control--save js-hidden js-edit-done">save</a>
+  		<a href="#" class="field-edit__control field-edit__control--cancel js-hidden js-edit-done">cancel</a>
+  	</div>
+  
+  </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field-edit&quot;&gt;
+  	&lt;p class&#x3D;&quot;form__static field-edit__value&quot; placeholder&#x3D;&quot;&quot;&gt;Stephanie Smith&lt;/p&gt;
+  	&lt;div class&#x3D;&quot;field-edit__controls&quot;&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--edit js-edit-start&quot;&gt;edit&lt;/a&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--save js-hidden js-edit-done&quot;&gt;save&lt;/a&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--cancel js-hidden js-edit-done&quot;&gt;cancel&lt;/a&gt;
+  	&lt;/div&gt;
+  
+  &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="18-edit-password-field">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Edit Password Field</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/18-edit-password-field.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>The Edit Password Field allows inline editing of passwords ensuring use of password inputs and
+  a confirmation field.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <div class="field-edit">
+  	<p class="form__static field-edit__pwd-value" placeholder="">(hidden)</p>
+  	<fieldset class="field-edit__password">
+  		<input id="unique-id" type="password" placeholder="new password"> <input id="unique-id" type="password" placeholder="confirm password"> </fieldset>
+  
+  	<div class="field-edit__controls">
+  		<a href="#" class="field-edit__control field-edit__control--edit js-edit-start">edit</a>
+  		<a href="#" class="field-edit__control field-edit__control--save js-hidden js-edit-done">save</a>
+  		<a href="#" class="field-edit__control field-edit__control--cancel js-hidden js-edit-done">cancel</a>
+  	</div>
+  
+  </div>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;div class&#x3D;&quot;field-edit&quot;&gt;
+  	&lt;p class&#x3D;&quot;form__static field-edit__pwd-value&quot; placeholder&#x3D;&quot;&quot;&gt;(hidden)&lt;/p&gt;
+  	&lt;fieldset class&#x3D;&quot;field-edit__password&quot;&gt;
+  		&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;password&quot; placeholder&#x3D;&quot;new password&quot;&gt; &lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;password&quot; placeholder&#x3D;&quot;confirm password&quot;&gt; &lt;/fieldset&gt;
+  
+  	&lt;div class&#x3D;&quot;field-edit__controls&quot;&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--edit js-edit-start&quot;&gt;edit&lt;/a&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--save js-hidden js-edit-done&quot;&gt;save&lt;/a&gt;
+  		&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;field-edit__control field-edit__control--cancel js-hidden js-edit-done&quot;&gt;cancel&lt;/a&gt;
+  	&lt;/div&gt;
+  
+  &lt;/div&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="18-slide-toggle">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Slide Toggle</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/18-slide-toggle.html">alone</a>
+  	</div><div class="f-item-preview">
+    <label class="slide-toggle">
+  	<span class="slide-toggle__label">
+  		Option 1 with longer text that wraps on small
+  	</span>
+  	<input id="unique-id" type="checkbox">
+  	<span class="slide-toggle__selector"></span>
+  </label>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;label class&#x3D;&quot;slide-toggle&quot;&gt;
+  	&lt;span class&#x3D;&quot;slide-toggle__label&quot;&gt;
+  		Option 1 with longer text that wraps on small
+  	&lt;/span&gt;
+  	&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  	&lt;span class&#x3D;&quot;slide-toggle__selector&quot;&gt;&lt;/span&gt;
+  &lt;/label&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="18-slide-toggle-question">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Slide Toggle Question</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/18-slide-toggle-question.html">alone</a>
+  	</div><div class="f-item-preview">
+    <label class="slide-toggle--question slide-toggle">
+  	<span class="slide-toggle__label">
+  		Question?
+  	</span>
+  	<input id="unique-id" type="checkbox">
+  	<span class="slide-toggle__selector"></span>
+  </label>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;label class&#x3D;&quot;slide-toggle--question slide-toggle&quot;&gt;
+  	&lt;span class&#x3D;&quot;slide-toggle__label&quot;&gt;
+  		Question?
+  	&lt;/span&gt;
+  	&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  	&lt;span class&#x3D;&quot;slide-toggle__selector&quot;&gt;&lt;/span&gt;
+  &lt;/label&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="19-upload">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Upload</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/19-upload.html">alone</a>
+  	</div><div class="f-item-preview">
+    <input id="unique-id" type="file">
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;file&quot;&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="30-form-validation">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Form Validation</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/30-form-validation.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Client-side (javascript) form validation is handled using the <a href="http://parsleyjs.org">ParsleyJS</a>
+  library. To make a field required, simply add the <code>required</code> attribute to the input. A generic
+  error message will be used on required fields, unless you provide a custom message by adding
+  the <code>data-parsley-error-message</code> attribute to the input as well. For required groups like radios
+  or checkboxes, add an empty <code>&lt;div&gt;</code> at the bottom of the group where you would like an error to
+  appear and then add the <code>data-parsley-errors-container</code> attribute with a value of the selector
+  for that empty <code>&lt;div&gt;</code>.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <form class="form" action="/test" method="post" data-validate>
+  
+  	<div class="field-group">
+  		<div class="field">
+  			<label for="required-field">
+  				Required Field
+  				<span class="required">*</span>
+  			</label> <input id="required-field" type="text" required> </div>
+  		<div class="field">
+  			<label for="custom-validation-message">
+  				Custom Validation Message
+  				<span class="required">*</span>
+  			</label>
+  			<input id="custom-validation-message" name="custom" type="text" required data-parsley-error-message="This is a custom error message">
+  		</div>
+  	</div>
+  
+  	<fieldset>
+  		<label class="form__radio">
+  			<input type="radio" name="option" value="Option A" required data-parsley-errors-container="#MiscOptionsError" data-parsley-error-message="Please select from Option A or B">
+  			<span class="form__selector"></span> Option A
+  		</label>
+  		<label class="form__radio">
+  			<input type="radio" name="option" value="Option B">
+  			<span class="form__selector"></span> Option B
+  		</label>
+  		<div id="MiscOptionsError"></div>
+  	</fieldset>
+  
+  	<footer class="form__footer">
+  		<button class="button button--blue">
+  			Submit
+  		</button> </footer>
+  
+  </form>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;form class&#x3D;&quot;form&quot; action&#x3D;&quot;/test&quot; method&#x3D;&quot;post&quot; data-validate&gt;
+  
+  	&lt;div class&#x3D;&quot;field-group&quot;&gt;
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;required-field&quot;&gt;
+  				Required Field
+  				&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  			&lt;/label&gt; &lt;input id&#x3D;&quot;required-field&quot; type&#x3D;&quot;text&quot; required&gt; &lt;/div&gt;
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;custom-validation-message&quot;&gt;
+  				Custom Validation Message
+  				&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  			&lt;/label&gt;
+  			&lt;input id&#x3D;&quot;custom-validation-message&quot; name&#x3D;&quot;custom&quot; type&#x3D;&quot;text&quot; required data-parsley-error-message&#x3D;&quot;This is a custom error message&quot;&gt;
+  		&lt;/div&gt;
+  	&lt;/div&gt;
+  
+  	&lt;fieldset&gt;
+  		&lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;option&quot; value&#x3D;&quot;Option A&quot; required data-parsley-errors-container&#x3D;&quot;#MiscOptionsError&quot; data-parsley-error-message&#x3D;&quot;Please select from Option A or B&quot;&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt; Option A
+  		&lt;/label&gt;
+  		&lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;option&quot; value&#x3D;&quot;Option B&quot;&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt; Option B
+  		&lt;/label&gt;
+  		&lt;div id&#x3D;&quot;MiscOptionsError&quot;&gt;&lt;/div&gt;
+  	&lt;/fieldset&gt;
+  
+  	&lt;footer class&#x3D;&quot;form__footer&quot;&gt;
+  		&lt;button class&#x3D;&quot;button button--blue&quot;&gt;
+  			Submit
+  		&lt;/button&gt; &lt;/footer&gt;
+  
+  &lt;/form&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="31-form-conditionals">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Form Conditionals</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/31-form-conditionals.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>Form conditionals are special attributes added HTML elements that allow certain fields to be
+  revealed or hidden based on the selection of a radio value. Fields that are hidden in this way
+  will be disabled and will not be validated.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <form class="form" action="/test" method="post" data-validate>
+  
+  	<fieldset>
+  		<label class="form__radio">
+  			<input type="radio" name="option" value="Option A" required data-parsley-errors-container="#Misc2OptionsError" data-parsley-error-message="Please select from Option A or B">
+  			<span class="form__selector"></span> Option A
+  		</label>
+  		<label class="form__radio">
+  			<input type="radio" name="option" value="Option B" data-if data-if-target="#OptionBFields">
+  			<span class="form__selector"></span> Option B
+  		</label>
+  		<div id="Misc2OptionsError"></div>
+  	</fieldset>
+  
+  	<fieldset id="OptionBFields">
+  
+  		<legend>Only Available When Option B is Selected</legend>
+  
+  		<div class="field">
+  			<label for="additional-field">
+  				Additional Field
+  				<span class="required">*</span>
+  			</label> <input id="additional-field" type="text" required> </div>
+  	</fieldset>
+  
+  	<footer class="form__footer">
+  		<button class="button button--blue">
+  			Submit
+  		</button> </footer>
+  
+  </form>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;form class&#x3D;&quot;form&quot; action&#x3D;&quot;/test&quot; method&#x3D;&quot;post&quot; data-validate&gt;
+  
+  	&lt;fieldset&gt;
+  		&lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;option&quot; value&#x3D;&quot;Option A&quot; required data-parsley-errors-container&#x3D;&quot;#Misc2OptionsError&quot; data-parsley-error-message&#x3D;&quot;Please select from Option A or B&quot;&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt; Option A
+  		&lt;/label&gt;
+  		&lt;label class&#x3D;&quot;form__radio&quot;&gt;
+  			&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;option&quot; value&#x3D;&quot;Option B&quot; data-if data-if-target&#x3D;&quot;#OptionBFields&quot;&gt;
+  			&lt;span class&#x3D;&quot;form__selector&quot;&gt;&lt;/span&gt; Option B
+  		&lt;/label&gt;
+  		&lt;div id&#x3D;&quot;Misc2OptionsError&quot;&gt;&lt;/div&gt;
+  	&lt;/fieldset&gt;
+  
+  	&lt;fieldset id&#x3D;&quot;OptionBFields&quot;&gt;
+  
+  		&lt;legend&gt;Only Available When Option B is Selected&lt;/legend&gt;
+  
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;additional-field&quot;&gt;
+  				Additional Field
+  				&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  			&lt;/label&gt; &lt;input id&#x3D;&quot;additional-field&quot; type&#x3D;&quot;text&quot; required&gt; &lt;/div&gt;
+  	&lt;/fieldset&gt;
+  
+  	&lt;footer class&#x3D;&quot;form__footer&quot;&gt;
+  		&lt;button class&#x3D;&quot;button button--blue&quot;&gt;
+  			Submit
+  		&lt;/button&gt; &lt;/footer&gt;
+  
+  &lt;/form&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="32-ajax-submissions">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Ajax Submissions</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+  				<svg>
+  					<use xlink:href="#f-icon-notes" />
+  				</svg>
+  			</span>
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/32-ajax-submissions.html">alone</a>
+  	</div><div class="f-item-notes" data-f-toggle="notes">
+    <p>To have a form submit via AJAX to Lotus Notes, add the <code>data-lotus-submit</code> attribute to the form element. The Lotus
+  Notes server requires one hidden field named <code>SendTo</code> with the proper delivery address: <code>&lt;input type=&quot;hidden&quot; name=&quot;SendTo&quot; value=&quot;{kub_webform_sendto}&quot;&gt;</code>.
+  The form will post to the URL in the action attribute of the form.</p>
+  <p>Both an alert and success message should be added to the top of the form using the Alert Success and Alert Warning components. These
+  will be hidden by default but will be revealed when the form is submitted. The success alert should have an element with a class of
+  <code>js-transaction-number</code>. On a successful submission a transaction number from the server will be appended to that element.</p>
+  
+  </div>
+  <div class="f-item-preview">
+    <form class="form" action="/lotus-notes-post.html" method="post" data-validate data-lotus-submit>
+  
+  	<div class="alert alert--success">
+  		<p>Thank you for your request. A confirmation email has been sent to you.</p>
+  
+  		<p>Please reference tracking number <strong class="js-transaction-number">UNKOWN</strong> for related correspondence.</p>
+  	</div>
+  
+  	<div class="alert alert--warning">
+  		There was a problem submitting your form. Please wait a moment and try again.
+  	</div>
+  
+  	<fieldset>
+  
+  		<div class="field">
+  			<label for="additional-field">
+  				Additional Field
+  				<span class="required">*</span>
+  			</label> <input id="additional-field" type="text" required> </div>
+  	</fieldset>
+  
+  	<footer class="form__footer">
+  		<button class="button button--blue">
+  			Submit
+  		</button> </footer>
+  
+  </form>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;form class&#x3D;&quot;form&quot; action&#x3D;&quot;/lotus-notes-post.html&quot; method&#x3D;&quot;post&quot; data-validate data-lotus-submit&gt;
+  
+  	&lt;div class&#x3D;&quot;alert alert--success&quot;&gt;
+  		&lt;p&gt;Thank you for your request. A confirmation email has been sent to you.&lt;/p&gt;
+  
+  		&lt;p&gt;Please reference tracking number &lt;strong class&#x3D;&quot;js-transaction-number&quot;&gt;UNKOWN&lt;/strong&gt; for related correspondence.&lt;/p&gt;
+  	&lt;/div&gt;
+  
+  	&lt;div class&#x3D;&quot;alert alert--warning&quot;&gt;
+  		There was a problem submitting your form. Please wait a moment and try again.
+  	&lt;/div&gt;
+  
+  	&lt;fieldset&gt;
+  
+  		&lt;div class&#x3D;&quot;field&quot;&gt;
+  			&lt;label for&#x3D;&quot;additional-field&quot;&gt;
+  				Additional Field
+  				&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;
+  			&lt;/label&gt; &lt;input id&#x3D;&quot;additional-field&quot; type&#x3D;&quot;text&quot; required&gt; &lt;/div&gt;
+  	&lt;/fieldset&gt;
+  
+  	&lt;footer class&#x3D;&quot;form__footer&quot;&gt;
+  		&lt;button class&#x3D;&quot;button button--blue&quot;&gt;
+  			Submit
+  		&lt;/button&gt; &lt;/footer&gt;
+  
+  &lt;/form&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+
+  <div class="f-item-group" id="slide-toggle-loading">
+  
+  	<div class="f-item-heading-group" data-f-toggle="labels">
+  		<h2 class="f-item-heading">Slide Toggle Loading</h2>
+  		<div class="f-item-controls">
+  			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+  				<svg>
+  					<use xlink:href="#f-icon-code" />
+  				</svg>
+  			</span>
+  		</div>
+  		&nbsp;<a href="/patterns/slide-toggle-loading.html">alone</a>
+  	</div><div class="f-item-preview">
+    <label class="slide-toggle loading">
+  	<span class="slide-toggle__label">
+  		Option 1 with longer text that wraps on small
+  	</span>
+  	<input id="unique-id" type="checkbox">
+  	<span class="slide-toggle__selector"></span>
+  </label>
+  </div>
+  <div class="f-item-code f-item-hidden" data-f-toggle="code">
+    <pre><code class="language-markup">&lt;label class&#x3D;&quot;slide-toggle loading&quot;&gt;
+  	&lt;span class&#x3D;&quot;slide-toggle__label&quot;&gt;
+  		Option 1 with longer text that wraps on small
+  	&lt;/span&gt;
+  	&lt;input id&#x3D;&quot;unique-id&quot; type&#x3D;&quot;checkbox&quot;&gt;
+  	&lt;span class&#x3D;&quot;slide-toggle__selector&quot;&gt;&lt;/span&gt;
+  &lt;/label&gt;</code></pre>
+  </div>
+  
+  
+  </div>
+
+</div>
+
+
+
+    </div>
+
+
+  <script src="/js/fabricator.js"></script>
+
+  <script src="/js/all.js"></script>
+  <script type="text/javascript">
+  var MTIProjectId='f3c78e81-1317-4760-b8b8-4a2dc7acd2d3';
+   (function() {
+          var mtiTracking = document.createElement('script');
+          mtiTracking.type='text/javascript';
+          mtiTracking.async='true';
+           mtiTracking.src='/js/mtiFontTrackingCode.js';
+          (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+     })();
+  </script>
+  </body>
+</html>
