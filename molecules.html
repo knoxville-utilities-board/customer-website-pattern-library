@@ -7,25 +7,25 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
 
-  <link rel="stylesheet" href="/css/fabricator.css">
+  <link rel="stylesheet" href="/customer-website-pattern-library/css/fabricator.css">
 
   <!--[if (lt IE 9) & (!IEMobile)]>
-  <link rel="stylesheet" href="/css/nomq.css"/>
+  <link rel="stylesheet" href="/customer-website-pattern-library/css/nomq.css"/>
   <![endif]-->
 
   <!--[if (gte IE 9) | (IEMobile)]><!-->
-  <link rel="stylesheet" href="/css/base.css"/>
+  <link rel="stylesheet" href="/customer-website-pattern-library/css/base.css"/>
   <!--<![endif]-->
   
-  <script src="/js/modernizr.js"></script>
+  <script src="/customer-website-pattern-library/js/modernizr.js"></script>
 
   <!-- grunticon/gulpicon -->
   <script>
     /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
     !function(){function e(e,n,t,o){"use strict";var r=window.document.createElement("link"),a=n||window.document.getElementsByTagName("script")[0],i=window.document.styleSheets;return r.rel="stylesheet",r.href=e,r.media="only x",o&&(r.onload=o),a.parentNode.insertBefore(r,a),r.onloadcssdefined=function(n){for(var t,o=0;o<i.length;o++)i[o].href&&i[o].href.indexOf(e)>-1&&(t=!0);t?n():setTimeout(function(){r.onloadcssdefined(n)})},r.onloadcssdefined(function(){r.media=t||"all"}),r}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,d=t.Image,s=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===i.userAgent.indexOf("Chrome")||-1!==i.userAgent.indexOf("Series40")),l=new d;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&s?0:t?1:2];t&&s?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},a=function(e){return n.document.querySelector('link[href$="'+e+'"]')},i=function(e){var n,t,r,a,i,c,d={};if(n=e.sheet,!n)return d;t=n.cssRules?n.cssRules:n.rules;for(var s=0;s<t.length;s++)r=t[s].cssText,a=o+t[s].selectorText,i=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),i&&i[1]&&(c=decodeURIComponent(i[1]),d[a]=c);return d},c=function(e){var n,r,a,i;a="data-grunticon-embed";for(var c in e){i=c.slice(o.length);try{n=t.querySelectorAll(i)}catch(d){continue}r=[];for(var s=0;s<n.length;s++)null!==n[s].getAttribute(a)&&r.push(n[s]);if(r.length)for(s=0;s<r.length;s++)r[s].innerHTML=e[c],r[s].style.backgroundImage="none",r[s].removeAttribute(a)}return r},d=function(n){"svg"===e.method&&r(function(){c(i(a(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
-    grunticon(["/icons/icons.data.svg.css", "/icons/icons.data.png.css", "/icons/icons.fallback.css"], grunticon.svgLoadedCallback);
+    grunticon(["/customer-website-pattern-library/icons/icons.data.svg.css", "/customer-website-pattern-library/icons/icons.data.png.css", "/customer-website-pattern-library/icons/icons.fallback.css"], grunticon.svgLoadedCallback);
   </script>
-  <noscript><link href="/icons/icons.fallback.css" rel="stylesheet"></noscript>
+  <noscript><link href="/customer-website-pattern-library/icons/icons.fallback.css" rel="stylesheet"></noscript>
 </head>
   <body>
 
@@ -572,7 +572,7 @@
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/account-dropdown.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/account-dropdown.html">alone</a>
 	</div><div class="f-item-notes" data-f-toggle="notes">
   <p>The Account Dropdown component will show a list of other accounts to switch to when triggered
 with a click or tap. The dropdown list defaults to be left aligned with the trigger text,
@@ -614,7 +614,7 @@ but it can be right aligned by adding the <code>account-dropdown--right</code> c
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/account-table.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/account-table.html">alone</a>
 	</div><div class="f-item-notes" data-f-toggle="notes">
   <p>Tabular data table styles. On small screens the columns will go away and therefore
 the column headings. You can prefix data on small screens by adding a <code>&lt;td class=&quot;account-table__date&quot; data-label=&quot;Amount Due&quot;&gt;</code>
@@ -635,7 +635,7 @@ attribute with the label value to the <code>&lt;td&gt;</code> element for any da
 	<tbody>
 		<tr>
 			<td class="account-table__number" data-label="Account Number">
-				<a href="/customer/accounts/0312994059">0312994059</a>
+				<a href="/customer-website-pattern-library/customer/accounts/0312994059">0312994059</a>
 			</td>
 			<td data-label="Service Address">
 				115 Moss Grove Blvd
@@ -647,12 +647,12 @@ attribute with the label value to the <code>&lt;td&gt;</code> element for any da
 				$1,493.12
 			</td>
 			<td class="account-table__action">
-				<a href="/customer/accounts/account/payments">Payment Options</a>
+				<a href="/customer-website-pattern-library/customer/accounts/account/payments">Payment Options</a>
 			</td>
 		</tr>
 		<tr>
 			<td class="account-table__number" data-label="Account Number">
-				<a href="/customer/accounts/1973340006">1973340006</a>
+				<a href="/customer-website-pattern-library/customer/accounts/1973340006">1973340006</a>
 			</td>
 			<td data-label="Service Address">
 				2021 Cumberland Ave Store #10173
@@ -664,7 +664,7 @@ attribute with the label value to the <code>&lt;td&gt;</code> element for any da
 				$2,283.64
 			</td>
 			<td class="account-table__action">
-				<a href="/customer/accounts/account/payments">Payment Options</a>
+				<a href="/customer-website-pattern-library/customer/accounts/account/payments">Payment Options</a>
 			</td>
 		</tr>
 	</tbody>
@@ -740,7 +740,7 @@ attribute with the label value to the <code>&lt;td&gt;</code> element for any da
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/activity-table.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/activity-table.html">alone</a>
 	</div><div class="f-item-notes" data-f-toggle="notes">
   <p>Tabular data table styles. On small screens the columns will go away and therefore
 the column headings. You can prefix data on small screens by adding a <code>data-label</code>
@@ -1043,7 +1043,7 @@ button are all optional.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/aside-messages.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/aside-messages.html">alone</a>
 	</div><div class="f-item-preview">
   <aside class="aside-messages">
 	<h1 class="aside-messages__heading">Account Messages</h1>
@@ -1082,7 +1082,7 @@ button are all optional.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/bar-graph.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/bar-graph.html">alone</a>
 	</div><div class="f-item-preview">
   <h2 class="bar-graph__heading">Graph Title</h3>
 
@@ -1131,7 +1131,7 @@ button are all optional.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/bill-nav.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/bill-nav.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="bill-nav">
 	<p><span class="tx-super-important">$77.89</span> due <strong>July 15, 2015</strong></p>
@@ -1170,7 +1170,7 @@ button are all optional.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/callout.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/callout.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="aside-callout">
 	<h1 class="aside-callout__heading">The type and number of electrical permits you must purchase dpend on the type of home construction</h1>
@@ -1209,7 +1209,7 @@ button are all optional.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/card.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/card.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="card js-eq-heights__target">
 	<h1 class="card__heading">Card Heading</h1>
@@ -1245,7 +1245,7 @@ button are all optional.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/content-overview.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/content-overview.html">alone</a>
 	</div><div class="f-item-notes" data-f-toggle="notes">
   <p>The content overview is placed after the page heading and before the primary content
 to provide some kind of overview text related to the content, whether the content be
@@ -1278,7 +1278,7 @@ text or a form.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/dropdown.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/dropdown.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="dropdown">
 	<h2 class="dropdown__prompt">What Service do you need?</h2>
@@ -1457,10 +1457,10 @@ text or a form.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/hero-map.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/hero-map.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="hero-map">
-	<img src="/images/outage-map.jpg" alt="Outage Map" class="hero-map__image" />
+	<img src="/customer-website-pattern-library/images/outage-map.jpg" alt="Outage Map" class="hero-map__image" />
 
 	<div class="hero-map__content">
 		<h2 class="hero-map__title">Outage Map</h2>
@@ -1498,7 +1498,7 @@ text or a form.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/hero-message.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/hero-message.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="hero-message">
 	<h1 class="hero-message__heading">
@@ -1558,7 +1558,7 @@ text or a form.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/hint.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/hint.html">alone</a>
 	</div><div class="f-item-notes" data-f-toggle="notes">
   <p>A hint is a link that pops up a balloon with text on click. The click event toggles a
 <code>.is-active</code> class to the root of the component.</p>
@@ -1603,7 +1603,7 @@ text or a form.</p>
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/modal.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/modal.html">alone</a>
 	</div><div class="f-item-notes" data-f-toggle="notes">
   <p>The modal dialog component is hidden until triggered by some kind of action. To reveal the modal Javascript must
 simply change the <code>.modal-wrapper</code> element to <code>display:block</code>. The <code>.modal__message</code> element is optional.</p>
@@ -1665,7 +1665,7 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/outage-preview.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/outage-preview.html">alone</a>
 	</div><div class="f-item-preview">
   
 </div>
@@ -1688,7 +1688,7 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/pagination.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/pagination.html">alone</a>
 	</div><div class="f-item-preview">
   <ul class="pagination">
 	<li class="pagination__item pagination__item--prev"><a href="#" class="pagination__link  icon-text-arrow-left">Previous</a></li>
@@ -1725,7 +1725,7 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/promo-panel.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/promo-panel.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="promo promo--callout">
 	<img class="promo__image" src="" alt="">
@@ -1777,7 +1777,7 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/severance.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/severance.html">alone</a>
 	</div><div class="f-item-notes" data-f-toggle="notes">
   <p>The severance notice is intended to go at the top of pages as a high priority notification.</p>
 
@@ -1816,7 +1816,7 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/sidebar-articles.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/sidebar-articles.html">alone</a>
 	</div><div class="f-item-preview">
   <article class="aside-article">
 	<img class="aside-article__image" src="" />
@@ -1859,7 +1859,7 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/start-stop.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/start-stop.html">alone</a>
 	</div><div class="f-item-preview">
   <div class="start-stop">
 	<div class="start-stop__cta">
@@ -1904,7 +1904,7 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
 				</svg>
 			</span>
 		</div>
-		&nbsp;<a href="/patterns/task.html">alone</a>
+		&nbsp;<a href="/customer-website-pattern-library/patterns/task.html">alone</a>
 	</div><div class="f-item-preview">
   <li class="task">
 	<a href=>
@@ -1931,9 +1931,9 @@ simply change the <code>.modal-wrapper</code> element to <code>display:block</co
     </div>
 
 
-  <script src="/js/fabricator.js"></script>
+  <script src="/customer-website-pattern-library/js/fabricator.js"></script>
 
-  <script src="/js/all.js"></script>
+  <script src="/customer-website-pattern-library/js/all.js"></script>
   <script type="text/javascript">
   var MTIProjectId='f3c78e81-1317-4760-b8b8-4a2dc7acd2d3';
    (function() {
