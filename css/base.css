@@ -3785,15 +3785,15 @@ textarea, input, select {
         margin-bottom: 0.5em;
         position: static; } }
     .header-actions.actions--logged-out .header-actions__action--minor {
-      width: 25%; }
+      width: 20%; }
       @media (max-width: 37.5em) {
         .header-actions.actions--logged-out .header-actions__action--minor a {
           padding-left: 0;
           padding-right: 0; } }
     .header-actions.actions--logged-out .header-actions__action--major {
-      width: 50%; }
+      width: 40%; }
     .header-actions__action {
-      width: 50%;
+      width: 33.33%;
       float: left; }
       @media (min-width: 37.5em) {
         .header-actions__action {
@@ -4264,7 +4264,7 @@ textarea, input, select {
     height: 60px; }
   @media (min-width: 37.5em) {
     .search {
-      margin-right: 0;
+      margin-right: 1em;
       float: none; } }
   @media (min-width: 55em) {
     .search {
@@ -4274,6 +4274,7 @@ textarea, input, select {
       position: absolute;
       top: 0.45em;
       right: 20em;
+      margin-right: 1em;
       margin-top: 1.55em; } }
   @media (min-width: 55em) {
     .search.logged-out {
